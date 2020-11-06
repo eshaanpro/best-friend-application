@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best Friend Application Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <div>
+            <h1>Best Friend Application</h1>
+            <img src="https://i1.faceprep.in/ProGrad/hello-minion.png" alt="hello-minion">
+            <p>
+                Hey there! I need a new best friend... because the last one escaped :)
+                not my fault though, I'm a little moody, but super cool!
+            </p>
+            <h3>
+                Wanna be friends?
+            </h3>
+        </div>
+        <form action="mailto:mehak.mashrook@gmail.com?Subject=My Best Friend Application" method="POST"
+        enctype="text/plain">
+            <label for="name">What's your name?</label>
+            <input type="text" name="name" id="name" placeholder="John Doe">
+            <label for="nickname">what do you want me to call you as?</label>
+            <input type="text" name="nickname" id="nickname" placeholder="johnny">
+            <label for="age">What's your age?</label>
+            <input type="number" name="age" id="age" min="11" max="17">
+            <label for="superhero">Who is your favourite superhero?</label>
+            <br>
+            <input type="checkbox" name="ironman" id="ironman">
+            <label for="ironman">IronMan</label>
+            <input type="checkbox" name="spiderman" id="spiderman">
+            <label for="spiderman">spiderman</label>
+            <input type="checkbox" name="thor" id="thor">
+            <label for="thor">Thor</label>
+            <br>
+            <label for="why">Why do you want to be friends with me?</label>
+            <textarea name="why" id="why" cols="30" rows="3">I want to friends with you because.....</textarea>
+            <input type="submit" value="Let's Be Friends">
+        </form>
+    </section>
+    
+</body>
+</html>
